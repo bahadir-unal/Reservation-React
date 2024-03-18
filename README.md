@@ -6,7 +6,7 @@ Bu proje, kullanıcıların sinema salonunda koltuk rezervasyonu yapmalarına ol
 ## Kurulum
 Projeyi bilgisayarınıza klonlayın:
 
-git clone https://github.com/kullaniciadi/sinema-rezervasyon.git
+git clone https://github.com/bahadir-unal/Reservation-React.git
 
 ## Proje dizinine gidin:
 
