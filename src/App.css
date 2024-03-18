@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+p {
+  text-align: center;
+}
+
+select {
+  text-align-last: center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.screen {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  margin: 20px 0;
+  color: white;
+  box-shadow: 0 3px 8px rgba(255, 255, 255, 0.9); /* Tamamen beyaz bir gölge efekti */
+}
+
+.seat {
+  background-color: grey;
+  height: 15px;
+  width: 15px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+
+
+.seat.selected {
+  background-color: rgb(34, 182, 34);
+}
+
+.seat.reserved {
+  background-color: #fff;
+}
+
+.seat:not(.reserved):hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.movie-list {
+  margin: 20px 0;
+  text-align: center; /* Orta hizalama */
+}
+
+.info {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+  color: #777;
+  display: flex;
+  justify-content: center; /* Öğeleri yatay olarak ortala */
+}
+
+.info li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+
+p.text span {
+  color: #13b1f0;
+}
+
+small {
+  color: white;
+}
+
